@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1>Encriptador básico</h1>
+        <p>Usa un cifrado César con alfabeto de 26 letras <strong></strong>.</p>
+      </div>
+      <div class="badge" title="Cifrado simple de demostración">🔒 Cifrado César</div>
+    </header>
+
+    <section class="card">
+      <div class="grid">
+        <div>
+          <div class="field">
+            <label for="input">Texto</label>
+            <textarea id="input" placeholder="Escribe aquí tu mensaje..."></textarea>
+            <div class="footer">
+              <div class="switch" role="tablist" aria-label="Modo">
+                <span class="pill active" data-mode="encrypt" role="tab" aria-selected="true">Encriptar</span>
+                <span class="pill" data-mode="decrypt" role="tab" aria-selected="false">Desencriptar</span>
+              </div>
+              <span id="count" class="muted">0 caracteres</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="controls">
+            <div class="field">
+              <label for="shift">Desplazamiento</label>
+              <input id="shift" type="number" value="3" min="0" max="25" />
+            </div>
+            <div class="field">
+              <label for="preserveCase">Conserva mayúsculas</label>
+              <select id="preserveCase">
+                <option value="yes" selected>Sí</option>
+                <option value="no">No (todo en minúsculas)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row" style="margin:14px 0 12px;">
+            <button class="btn" id="run">Aplicar</button>
+            <button class="btn btn-secondary" id="copy">Copiar</button>
+            <button class="btn btn-secondary" id="clear">Limpiar</button>
+          </div>
+
+          <div class="field">
+            <label for="output">Resultado</label>
+            <div id="output" class="out" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p class="muted" style="margin-top:12px;">Nota: El cifrado César es educativo y no es seguro para información sensible.</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
