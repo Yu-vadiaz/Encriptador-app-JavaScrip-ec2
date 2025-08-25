@@ -1,4 +1,4 @@
-![Texto alternativo](img/logo.png)
+![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/3413929b269b5e4a7b233ed17c8aac3755f3e09c/Captura%20de%20pantalla%202025-08-24%20183146.png)
 
  # ENCRIPTADOR
  Este proyecto es un encriptador y desencriptador de texto implementado en HTML, CSS y JavaScript.
@@ -36,6 +36,7 @@ Si se selecciona Desencriptar, se realiza el proceso inverso.
 Actualizamos el sistema e instalamos dependecias 
 - sudo apt update && sudo apt upgrade -y
 - sudo apt install nginx -y
+
 
 
 
