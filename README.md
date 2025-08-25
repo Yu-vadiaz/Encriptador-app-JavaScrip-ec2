@@ -67,7 +67,9 @@ Reemplaza el contenido con:
 
 #Probar en navegador 
 
-![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/3413929b269b5e4a7b233ed17c8aac3755f3e09c/Captura%20de%20pantalla%202025-08-24%20183146.png)
+Abrir desde AWS ec2
+![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/3a7a5864053018c0e24f557513bf2836b3f9c2f1/Captura%20de%20pantalla%202025-08-24%20191626.png)
+
 
 
 
