@@ -47,8 +47,13 @@ Verificacion de nginx
 
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/f27675072bebb5149d103dea10a906cacc4273b3/Captura%20de%20pantalla%202025-08-24%20185114.png)
 
+#Paso 3: Clonar la aplicacion
+
+- cd /var/www
+- sudo git clone https://github.com/usuario/tu-repo.git
 
 ![Texto alternativo](img/logo.png)
+
 
 
 
