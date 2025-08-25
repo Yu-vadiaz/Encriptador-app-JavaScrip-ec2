@@ -56,7 +56,20 @@ Verificacion de nginx
 
 - sudo nano /etc/nginx/sites-available/default
 
+Reemplaza el contenido con:
+
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/9071dedb85d3bffe7f61373e74756b3d2532c19f/Captura%20de%20pantalla%202025-08-24%20191217.png)
+
+
+#Paso 5: Reiniciar Nginx
+
+- sudo systemctl restart nginx
+
+#Probar en navegador 
+
+
+
+
 
 
 
