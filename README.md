@@ -89,7 +89,7 @@ Verificar que los archivos esten en la carpeta correcta
 - ls
 
 
- ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/cca88e0f8d59933e2a7f5527398b2404dedf25ff/Captura%20de%20pantalla%202025-08-24%20163239.png)
+ ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/4d2871d4174af3d28a4f4ff2c6ec1f25e8e707f3/Captura%20de%20pantalla%202025-08-24%20193105.png)
 
 Ahora 
 
@@ -112,6 +112,7 @@ Reemplazamos por 👇
  ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/cca88e0f8d59933e2a7f5527398b2404dedf25ff/Captura%20de%20pantalla%202025-08-24%20163239.png)
 
  
+
 
 
 
