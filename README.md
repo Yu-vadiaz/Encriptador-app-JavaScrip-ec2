@@ -104,19 +104,6 @@ Reemplazamos por 👇
 
 
 
-server {
-    listen 80;
-    server_name _;
-
-    root /var/www/Encriptador-app-JavaScrip-ec2;
-    index index.html;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
-}
-
-
 
 
 
