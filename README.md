@@ -41,8 +41,11 @@ Verificacion de nginx
 
 Active Runnig
 
+![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/f27675072bebb5149d103dea10a906cacc4273b3/Captura%20de%20pantalla%202025-08-24%20185114.png)
+
+
 ![Texto alternativo](img/logo.png)
-![Texto alternativo](img/logo.png)
+
 
 
 
