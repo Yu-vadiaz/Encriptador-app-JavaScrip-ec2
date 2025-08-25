@@ -50,9 +50,18 @@ Verificacion de nginx
 #Paso 3: Clonar la aplicacion
 
 - cd /var/www
-- sudo git clone https://github.com/usuario/tu-repo.git
+- sudo git clone https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2.git
+
+#Paso 4: Configurar Nginx para tu app
+
+- sudo nano /etc/nginx/sites-available/default
+
+  
+
+  
 
 ![Texto alternativo](img/logo.png)
+
 
 
 
