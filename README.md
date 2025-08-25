@@ -37,6 +37,12 @@ Actualizamos el sistema e instalamos dependecias
 - sudo apt update && sudo apt upgrade -y
 - sudo apt install nginx -y
 
+  ![Texto alternativo](img/logo.png)
+![Texto alternativo](img/logo.png)
+![Texto alternativo](img/logo.png)
+
+
+
 
 
 
