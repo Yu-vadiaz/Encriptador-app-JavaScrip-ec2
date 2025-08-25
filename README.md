@@ -86,7 +86,7 @@ Es la página por defecto que viene con Nginx, lo cual indica que aún no has ap
 Verificar que los archivos esten en la carpeta correcta
 
 - cd /var/www/Encriptador-app-JavaScrip-ec2
-- ls
+-  ls
 
 
  ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/4d2871d4174af3d28a4f4ff2c6ec1f25e8e707f3/Captura%20de%20pantalla%202025-08-24%20193105.png)
@@ -110,6 +110,7 @@ Reemplazamos por 👇
  ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/e35ce8bee6a95fc3a9ba205c8583b0c218a48e2d/Captura%20de%20pantalla%202025-08-24%20193600.png)
 
  
+
 
 
 
