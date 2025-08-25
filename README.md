@@ -1,3 +1,4 @@
+![Texto alternativo](img/logo.png)
 
  # ENCRIPTADOR
  Este proyecto es un encriptador y desencriptador de texto implementado en HTML, CSS y JavaScript.
@@ -35,6 +36,7 @@ Si se selecciona Desencriptar, se realiza el proceso inverso.
 Actualizamos el sistema e instalamos dependecias 
 - sudo apt update && sudo apt upgrade -y
 - sudo apt install nginx -y
+
 
 
 
