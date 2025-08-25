@@ -32,7 +32,7 @@ Si se selecciona Desencriptar, se realiza el proceso inverso.
 -Crear y seleccionar tu instancia.
 -Click en "Connect"
 
-#Paso 2: Preparar el Entorno 
+# Paso 2: Preparar el Entorno 
 Actualizamos el sistema e instalamos dependecias 
 - sudo apt update && sudo apt upgrade -y
 - sudo apt install nginx -y
@@ -47,12 +47,12 @@ Verificacion de nginx
 
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/f27675072bebb5149d103dea10a906cacc4273b3/Captura%20de%20pantalla%202025-08-24%20185114.png)
 
-#Paso 3: Clonar la aplicacion
+# Paso 3: Clonar la aplicacion
 
 - cd /var/www
 - sudo git clone https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2.git
 
-#Paso 4: Configurar Nginx para tu app
+# Paso 4: Configurar Nginx para tu app
 
 - sudo nano /etc/nginx/sites-available/default
 
@@ -61,16 +61,28 @@ Reemplaza el contenido con:
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/9071dedb85d3bffe7f61373e74756b3d2532c19f/Captura%20de%20pantalla%202025-08-24%20191217.png)
 
 
-#Paso 5: Reiniciar Nginx
+# Paso 5: Reiniciar Nginx
 
 - sudo systemctl restart nginx
 
-#Paso 6: Probar en navegador 
+# Paso 6: Probar en navegador 
 
 Abrir desde AWS ec2
 
 
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/3a7a5864053018c0e24f557513bf2836b3f9c2f1/Captura%20de%20pantalla%202025-08-24%20191626.png)
+
+# Errores encontrados ‼️
+
+La primera vez que se probo en el navegador me aparecio esto en la pagina 
+
+![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/3a7a5864053018c0e24f557513bf2836b3f9c2f1/Captura%20de%20pantalla%202025-08-24%20191626.png)
+
+
+Es la página por defecto que viene con Nginx, lo cual indica que aún no has apuntado Nginx hacia tu aplicación HTML/CSS/JS.
+
+
+
 
 
 
