@@ -36,15 +36,20 @@ Si se selecciona Desencriptar, se realiza el proceso inverso.
 Actualizamos el sistema e instalamos dependecias 
 - sudo apt update && sudo apt upgrade -y
 - sudo apt install nginx -y
+
+  
 Verificacion de nginx
+
+
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/b0ef89390700c7d1486280ebe181c3f7fafc0fc2/Captura%20de%20pantalla%202025-08-24%20185027.png)
 
-Active Runnig
+
 
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/f27675072bebb5149d103dea10a906cacc4273b3/Captura%20de%20pantalla%202025-08-24%20185114.png)
 
 
 ![Texto alternativo](img/logo.png)
+
 
 
 
