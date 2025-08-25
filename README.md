@@ -102,8 +102,8 @@ Abre el archivo de configuración:
 Reemplazamos por 👇
 
 
+ ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/bbdc89a8cc5c3962d19130c72716fae09c229f50/Captura%20de%20pantalla%202025-08-24%20193542.png)
 
- ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/cca88e0f8d59933e2a7f5527398b2404dedf25ff/Captura%20de%20pantalla%202025-08-24%20163239.png)
 
  # Reinicia Nginx
 
@@ -112,6 +112,7 @@ Reemplazamos por 👇
  ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/cca88e0f8d59933e2a7f5527398b2404dedf25ff/Captura%20de%20pantalla%202025-08-24%20163239.png)
 
  
+
 
 
 
