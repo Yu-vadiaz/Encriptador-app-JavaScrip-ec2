@@ -101,6 +101,9 @@ Abre el archivo de configuración:
 
 Reemplazamos por 👇
 
+
+
+
 server {
     listen 80;
     server_name _;
@@ -112,6 +115,7 @@ server {
         try_files $uri $uri/ =404;
     }
 }
+
 
 
 
