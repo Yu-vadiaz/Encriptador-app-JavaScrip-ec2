@@ -107,11 +107,10 @@ Reemplazamos por 👇
 
  # Reinicia Nginx
 
-
-
- ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/cca88e0f8d59933e2a7f5527398b2404dedf25ff/Captura%20de%20pantalla%202025-08-24%20163239.png)
+ ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/e35ce8bee6a95fc3a9ba205c8583b0c218a48e2d/Captura%20de%20pantalla%202025-08-24%20193600.png)
 
  
+
 
 
 
