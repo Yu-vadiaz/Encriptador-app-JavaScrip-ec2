@@ -76,10 +76,50 @@ Abrir desde AWS ec2
 
 La primera vez que se probo en el navegador me aparecio esto en la pagina 
 
-![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/3a7a5864053018c0e24f557513bf2836b3f9c2f1/Captura%20de%20pantalla%202025-08-24%20191626.png)
+![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/cca88e0f8d59933e2a7f5527398b2404dedf25ff/Captura%20de%20pantalla%202025-08-24%20163239.png)
 
 
 Es la página por defecto que viene con Nginx, lo cual indica que aún no has apuntado Nginx hacia tu aplicación HTML/CSS/JS.
+
+# Soluccion ✅
+
+Verificar que los archivos esten en la carpeta correcta
+
+- cd /var/www/Encriptador-app-JavaScrip-ec2
+- ls
+
+
+ ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/cca88e0f8d59933e2a7f5527398b2404dedf25ff/Captura%20de%20pantalla%202025-08-24%20163239.png)
+
+Ahora 
+
+# Paso 1: Edita la configuración de Nginx
+
+Abre el archivo de configuración:
+
+- sudo nano /etc/nginx/sites-available/default
+
+Reemplazamos por 👇
+
+server {
+    listen 80;
+    server_name _;
+
+    root /var/www/Encriptador-app-JavaScrip-ec2;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
