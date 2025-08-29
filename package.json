@@ -1,0 +1,11 @@
+{
+  "name": "encriptador-app-javascrip-ec2",
+  "version": "1.0.0",
+  "description": "Tests básicos para el encriptador César (Actividad 2)",
+  "scripts": {
+    "test": "jest --ci --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
