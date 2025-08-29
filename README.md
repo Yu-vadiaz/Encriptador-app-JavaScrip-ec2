@@ -81,7 +81,7 @@ La primera vez que se probo en el navegador me aparecio esto en la pagina
 
 Es la página por defecto que viene con Nginx, lo cual indica que aún no has apuntado Nginx hacia tu aplicación HTML/CSS/JS.
 
-# Soluccion ✅
+# Solucion ✅
 
 Verificar que los archivos esten en la carpeta correcta
 
@@ -110,6 +110,7 @@ Reemplazamos por 👇
  ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/e35ce8bee6a95fc3a9ba205c8583b0c218a48e2d/Captura%20de%20pantalla%202025-08-24%20193600.png)
 
  
+
 
 
 
