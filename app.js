@@ -80,3 +80,33 @@ clearBtn.addEventListener('click', () => {
 // Inicializar
 updateCount();
 apply();
+
+// --- Exportes seguros para navegador y Node (tests) ---
+function encriptarCesar(texto, desplazamiento) {
+  const a = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  const A = a.split('');
+  const map = new Map(A.map((ch, i) => [ch, i]));
+  let out = '';
+  for (const ch of texto.toUpperCase()) {
+    if (map.has(ch)) {
+      const idx = (map.get(ch) + (desplazamiento % 26) + 26) % 26;
+      out += A[idx];
+    } else {
+      out += ch;
+    }
+  }
+  return out;
+}
+
+function desencriptarCesar(texto, desplazamiento) {
+  return encriptarCesar(texto, -desplazamiento);
+}
+
+if (typeof window !== 'undefined') {
+  window.encriptarCesar = encriptarCesar;
+  window.desencriptarCesar = desencriptarCesar;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { encriptarCesar, desencriptarCesar };
+}
