@@ -7,6 +7,7 @@ La interfaz está diseñada con una paleta de colores palo de rosa, lo que le da
 El encriptador utiliza un cifrado César, donde cada letra se desplaza un número determinado de posiciones en el alfabeto.
 El usuario puede seleccionar el número de desplazamientos, escribir un texto y obtener su versión encriptada o desencriptada.
 
+> Test inicial para activar Actions
 ![CI](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/actions/workflows/ci.yml/badge.svg)
 
 
@@ -113,6 +114,7 @@ Reemplazamos por 👇
  ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/e35ce8bee6a95fc3a9ba205c8583b0c218a48e2d/Captura%20de%20pantalla%202025-08-24%20193600.png)
 
  
+
 
 
 
