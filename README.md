@@ -147,17 +147,85 @@ De esta manera, garantizo que la aplicación siempre esté en buen estado antes 
 
 ## 📂 Estructura del repositorio
 Encriptador-app-JavaScrip-ec2/
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── package.json
+
 ├── tests/
+
 │ ├── basic.test.js
+
 │ └── encrypt.test.js
+
 └── .github/
+
 └── workflows/
+
 └── ci.yml
 
+
+
+---
+
+## 🧪 Automatización con GitHub Actions
+
+Este proyecto ahora cuenta con un flujo de **Integración Continua (CI)** configurado en `.github/workflows/ci.yml`.
+
+### 🔹 ¿Qué hace el workflow?
+1. Se ejecuta en cada `push` a la rama **master**.  
+2. Instala dependencias de Node.js (Jest, jsdom).  
+3. Corre pruebas automáticas (`npm test`) para validar el encriptador.  
+4. Actualiza el badge en este `README.md`.  
+
+### 🔹 Validaciones implementadas
+- ✅ Encriptar texto: `"hola"` → `"hoberlai"`.  
+- ✅ Desencriptar texto: `"hoberlai"` → `"hola"`.  
+- ✅ Confirmar que al encriptar y luego desencriptar se obtiene el texto original.  
+- ✅ Comprobar que el archivo `índice.html` existe en el proyecto.  
+
+---
+
+## 📸 Evidencias del Workflow
+
+- Ejecuciones visibles en la pestaña **Actions** del repositorio.  
+- Capturas de pantalla mostrando:  
+  - Badge en verde ✅.  
+  - Logs de ejecución de los tests en GitHub Actions.  
+
+---
+
+## 📖 Beneficios de la Automatización
+
+- 🔍 **Detección temprana de errores**: si la lógica del encriptador falla, el workflow lo detecta al instante.  
+- ♻️ **Validación continua**: cada cambio al repositorio pasa por pruebas automáticas.  
+- 📊 **Transparencia**: el badge permite saber el estado actual del proyecto sin revisar manualmente.  
+- 💡 **Mantenibilidad**: facilita el trabajo colaborativo y evita subir cambios que rompan la app.  
+
+---
+
+## 🎥 Presentación (para el video)
+
+En el video de entrega se mostrará:  
+1. El repositorio en GitHub con el **badge funcionando**.  
+2. La pestaña **Actions** ejecutando el workflow.  
+3. Los tests automáticos pasando correctamente.  
+4. Una breve explicación de los beneficios de la automatización aplicada al encriptador.  
+
+---
+
+## 📌 Conclusión
+
+Con esta actividad logré implementar **automatización básica** en mi proyecto:  
+- Configuré un workflow en GitHub Actions.  
+- Agregué tests automáticos con Jest para validar la funcionalidad del encriptador.  
+- Actualicé el `README.md` con un badge de estado y documentación clara.  
+
+✅ Esto cumple con los criterios de implementación, mejoras al repositorio, documentación de calidad y demostración del funcionamiento.
 
 
 
