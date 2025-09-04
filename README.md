@@ -1,4 +1,4 @@
-hola
+hola ,como estas
 
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/3413929b269b5e4a7b233ed17c8aac3755f3e09c/Captura%20de%20pantalla%202025-08-24%20183146.png)
 
@@ -180,6 +180,7 @@ Encriptador-app-JavaScrip-ec2/
 - 💡 **Mantenibilidad**: facilita el trabajo colaborativo y evita subir cambios que rompan la app.  
 
 ---
+
 
 
 
