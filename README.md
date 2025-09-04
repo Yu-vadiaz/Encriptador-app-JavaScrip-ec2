@@ -187,15 +187,6 @@ Este proyecto ahora cuenta con un flujo de **Integración Continua (CI)** config
 
 ---
 
-## 📸 Evidencias del Workflow
-
-- Ejecuciones visibles en la pestaña **Actions** del repositorio.  
-- Capturas de pantalla mostrando:  
-  - Badge en verde ✅.  
-  - Logs de ejecución de los tests en GitHub Actions.  
-
----
-
 ## 📖 Beneficios de la Automatización
 
 - 🔍 **Detección temprana de errores**: si la lógica del encriptador falla, el workflow lo detecta al instante.  
@@ -205,24 +196,7 @@ Este proyecto ahora cuenta con un flujo de **Integración Continua (CI)** config
 
 ---
 
-## 🎥 Presentación (para el video)
 
-En el video de entrega se mostrará:  
-1. El repositorio en GitHub con el **badge funcionando**.  
-2. La pestaña **Actions** ejecutando el workflow.  
-3. Los tests automáticos pasando correctamente.  
-4. Una breve explicación de los beneficios de la automatización aplicada al encriptador.  
-
----
-
-## 📌 Conclusión
-
-Con esta actividad logré implementar **automatización básica** en mi proyecto:  
-- Configuré un workflow en GitHub Actions.  
-- Agregué tests automáticos con Jest para validar la funcionalidad del encriptador.  
-- Actualicé el `README.md` con un badge de estado y documentación clara.  
-
-✅ Esto cumple con los criterios de implementación, mejoras al repositorio, documentación de calidad y demostración del funcionamiento.
 
 
 
