@@ -1,6 +1,3 @@
-![CI](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/actions/workflows/ci.yml/badge.svg)
-
-
 
 
 ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/3413929b269b5e4a7b233ed17c8aac3755f3e09c/Captura%20de%20pantalla%202025-08-24%20183146.png)
@@ -226,6 +223,7 @@ Con esta actividad logré implementar **automatización básica** en mi proyecto
 - Actualicé el `README.md` con un badge de estado y documentación clara.  
 
 ✅ Esto cumple con los criterios de implementación, mejoras al repositorio, documentación de calidad y demostración del funcionamiento.
+
 
 
 
