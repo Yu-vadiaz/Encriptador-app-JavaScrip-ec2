@@ -117,9 +117,48 @@ Reemplazamos por 👇
 
  ![Texto alternativo](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/blob/e35ce8bee6a95fc3a9ba205c8583b0c218a48e2d/Captura%20de%20pantalla%202025-08-24%20193600.png)
 
- 
+# 🔐 Encriptador App
 
-hola
+Esta aplicación web permite **encriptar y desencriptar texto** utilizando reglas simples de sustitución de vocales.  
+Está desarrollada en **HTML, CSS y JavaScript** y desplegada en **AWS EC2 con Nginx**.
+
+---
+
+## 🚀 Automatización con GitHub Actions
+
+![CI](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/actions/workflows/ci.yml/badge.svg)
+
+Este proyecto ahora cuenta con **integración continua (CI)** gracias a GitHub Actions.  
+Cada vez que realizo un `push` a la rama **master**, se ejecuta un workflow que:
+
+1. Descarga el código del repositorio.  
+2. Instala dependencias de Node.js (Jest, jsdom).  
+3. Ejecuta **tests automáticos** para validar que el encriptador funciona correctamente.  
+
+### ✅ Validaciones incluidas
+- Operaciones de **encriptado** (`hola → hoberlai`).  
+- Operaciones de **desencriptado** (`hoberlai → hola`).  
+- Verificación de que al encriptar y luego desencriptar un texto, el resultado sea el **original**.  
+- Comprobación de que el archivo `index.html` existe en el proyecto.  
+
+De esta manera, garantizo que la aplicación siempre esté en buen estado antes de actualizarla o desplegarla.
+
+---
+
+## 📂 Estructura del repositorio
+Encriptador-app-JavaScrip-ec2/
+├── index.html
+├── style.css
+├── script.js
+├── package.json
+├── tests/
+│ ├── basic.test.js
+│ └── encrypt.test.js
+└── .github/
+└── workflows/
+└── ci.yml
+
+
 
 
 
