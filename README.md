@@ -120,25 +120,24 @@ Esta aplicación web permite **encriptar y desencriptar texto** utilizando regla
 Está desarrollada en **HTML, CSS y JavaScript** y desplegada en **AWS EC2 con Nginx**.
 
 ---
+## 🧪 Automatización con GitHub Actions
 
-## 🚀 Automatización con GitHub Actions
 
 ![CI](https://github.com/Yu-vadiaz/Encriptador-app-JavaScrip-ec2/actions/workflows/ci.yml/badge.svg)
 
-Este proyecto ahora cuenta con **integración continua (CI)** gracias a GitHub Actions.  
-Cada vez que realizo un `push` a la rama **master**, se ejecuta un workflow que:
+Este proyecto ahora cuenta con un flujo de **Integración Continua (CI)** configurado en `.github/workflows/ci.yml`.
 
-1. Descarga el código del repositorio.  
+### 🔹 ¿Qué hace el workflow?
+1. Se ejecuta en cada `push` a la rama **master**.  
 2. Instala dependencias de Node.js (Jest, jsdom).  
-3. Ejecuta **tests automáticos** para validar que el encriptador funciona correctamente.  
+3. Corre pruebas automáticas (`npm test`) para validar el encriptador.  
+4. Actualiza el badge en este `README.md`.  
 
-### ✅ Validaciones incluidas
-- Operaciones de **encriptado** (`hola → hoberlai`).  
-- Operaciones de **desencriptado** (`hoberlai → hola`).  
-- Verificación de que al encriptar y luego desencriptar un texto, el resultado sea el **original**.  
-- Comprobación de que el archivo `index.html` existe en el proyecto.  
-
-De esta manera, garantizo que la aplicación siempre esté en buen estado antes de actualizarla o desplegarla.
+### 🔹 Validaciones implementadas
+- ✅ Encriptar texto: `"hola"` → `"hoberlai"`.  
+- ✅ Desencriptar texto: `"hoberlai"` → `"hola"`.  
+- ✅ Confirmar que al encriptar y luego desencriptar se obtiene el texto original.  
+- ✅ Comprobar que el archivo `índice.html` existe en el proyecto.  
 
 ---
 
@@ -169,23 +168,9 @@ Encriptador-app-JavaScrip-ec2/
 
 ---
 
-## 🧪 Automatización con GitHub Actions
 
-Este proyecto ahora cuenta con un flujo de **Integración Continua (CI)** configurado en `.github/workflows/ci.yml`.
 
-### 🔹 ¿Qué hace el workflow?
-1. Se ejecuta en cada `push` a la rama **master**.  
-2. Instala dependencias de Node.js (Jest, jsdom).  
-3. Corre pruebas automáticas (`npm test`) para validar el encriptador.  
-4. Actualiza el badge en este `README.md`.  
 
-### 🔹 Validaciones implementadas
-- ✅ Encriptar texto: `"hola"` → `"hoberlai"`.  
-- ✅ Desencriptar texto: `"hoberlai"` → `"hola"`.  
-- ✅ Confirmar que al encriptar y luego desencriptar se obtiene el texto original.  
-- ✅ Comprobar que el archivo `índice.html` existe en el proyecto.  
-
----
 
 ## 📖 Beneficios de la Automatización
 
@@ -195,6 +180,7 @@ Este proyecto ahora cuenta con un flujo de **Integración Continua (CI)** config
 - 💡 **Mantenibilidad**: facilita el trabajo colaborativo y evita subir cambios que rompan la app.  
 
 ---
+
 
 
 
